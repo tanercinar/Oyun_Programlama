@@ -12,7 +12,7 @@ public class LaserSpawn: MonoBehaviour
 
     void Update()
     {
-        //Space tuşuna basılma durumu ve sonraki eteş zamanını kontrol edip Fire() fonksiyonunu çağıran if bloğu
+        //Space tuşuna basılma durumu ve sonraki eteş zamanını kontrol edip Fire fonksiyonunu çağıran if bloğu
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFireTime)
         {
             Fire();
